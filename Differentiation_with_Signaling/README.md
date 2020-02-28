@@ -13,3 +13,34 @@ The code will generate a figure which shows cell population.
 Data and code associated with:
 
 Safdari et al. Noise-driven Cell Differentiation and the Emergence of Organization. bioRxiv doi: https://doi.org/10.1101/220525
+
+## How to run JAVA codes:
+
+Instructor to use static path definition (instead of this dynamic path definition) to run JAVA codes.
+
+ 
+1. In MATLAB command window  write,
+
+       cd(prefdir)
+
+to go to the preferences directory of MATLAB.
+
+2. Then type also
+
+      edit javaclasspath.txt
+
+and this file will be created because it does not exist yet.
+
+3. In the new (empty) file “javaclasspath.txt” write the path for the JAVA codes:
+
+   FOLDER PATH\java\shoving\build\classes\
+
+Then save the file.
+
+4. Close MATLAB and COMSOL server and start again COMSOL with MATLAB.
+
+5. Now the path to our shoving function will be static and you can check it by typing:
+
+     javaclasspath('-static')
+
+the path could be seen.
