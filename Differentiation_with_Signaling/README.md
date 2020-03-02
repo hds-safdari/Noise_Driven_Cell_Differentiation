@@ -28,7 +28,7 @@ Instructor to use static path definition (instead of this dynamic path definitio
 
 to go to the preferences directory of MATLAB.
 
-2. Then type also
+2. Then type,
 
       edit javaclasspath.txt
 
@@ -42,7 +42,7 @@ Then save the file.
 
 4. Close MATLAB and COMSOL server and start again COMSOL with MATLAB.
 
-5. Now the path to our shoving function will be static and you can check it by typing:
+5. Now the path to the shoving function will be static and you can check it by typing:
 
      javaclasspath('-static')
 
