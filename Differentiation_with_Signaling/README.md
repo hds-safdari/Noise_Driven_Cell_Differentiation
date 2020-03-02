@@ -3,8 +3,11 @@
 "shoving.biomass": JAVA code to evaluate Shoving step.
 
 "gene_expression": MATLAB function to evaluate Gillespie algorithm. 
+
 "clust_coeff" : MATLAB function to stimate clustering coefficient. 
+
 "simple_spectral_partitioning": MATLAB function to stimate comminity size. 
+
 
 To run the code, COMSOL 5.2 should be installed. The "COMSOL_Installation_Instructions.pdf" file gives the installation instructions. It requires a license file. The installation would take few minutes. 
 
