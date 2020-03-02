@@ -3,7 +3,9 @@
 "shoving.biomass": JAVA code to evaluate Shoving step.
 
 "gene_expression": MATLAB function to evaluate Gillespie algorithm. 
+
 "clust_coeff" : MATLAB function to stimate clustering coefficient. 
+
 "simple_spectral_partitioning": MATLAB function to stimate comminity size. 
 
 To run the code, COMSOL 5.2 should be installed. The "COMSOL_Installation_Instructions.pdf" file gives
@@ -30,7 +32,7 @@ Instructor to use static path definition (instead of this dynamic path definitio
 
 to go to the preferences directory of MATLAB.
 
-2. Then type also
+2. Then type,
 
       edit javaclasspath.txt
 
@@ -44,7 +46,7 @@ Then save the file.
 
 4. Close MATLAB and COMSOL server and start again COMSOL with MATLAB.
 
-5. Now the path to our shoving function will be static and you can check it by typing:
+5. Now the path to the shoving function will be static and you can check it by typing:
 
      javaclasspath('-static')
 
